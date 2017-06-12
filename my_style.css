@@ -1,0 +1,13 @@
+#processBar{
+	border-style: inset;
+	border-width: 2px;
+	width: 300px;
+	height: 220px;
+	color: green;
+}
+
+#process{
+	background: blue;
+	height: 15px;
+	display: inline-block;
+}

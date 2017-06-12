@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Jukebox Starter Kit</title>
+</head>
+<body>
+<input id="volume" min="0" max="1" step="0.1" type="range" onchange="setVolume()"" />
+<br>
+<audio id="audio" src="my_music.mp3">Music</audio>
+
+	<div id="controls">	
+		<button id="btPlay" onclick="playAndPause()" title="Play">Play</button>
+	</div>
+	<button id="btMute" onclick="Mute()">Mute</button>
+	<div id="processBar"><span id="process"></span>
+	</div>
+</body>
+</html>
+
+<!-- http://www.adobe.com/devnet/archive/html5/articles/html5-multimedia-pt3.html -->
